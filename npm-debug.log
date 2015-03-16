@@ -1,0 +1,524 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'connect',
+1 verbose cli   'serve-static' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'connect', null ]
+5 verbose cache add name=undefined spec="connect" args=["connect",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'connect',
+6 verbose parsed url   path: 'connect',
+6 verbose parsed url   href: 'connect' }
+7 verbose cache add [ 'serve-static', null ]
+8 verbose cache add name=undefined spec="serve-static" args=["serve-static",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'serve-static',
+9 verbose parsed url   path: 'serve-static',
+9 verbose parsed url   href: 'serve-static' }
+10 silly lockFile f11a107f-connect connect
+11 verbose lock connect /Users/udourbantschitsch/.npm/f11a107f-connect.lock
+12 silly lockFile fae0c2c0-serve-static serve-static
+13 verbose lock serve-static /Users/udourbantschitsch/.npm/fae0c2c0-serve-static.lock
+14 silly lockFile f11a107f-connect connect
+15 silly lockFile f11a107f-connect connect
+16 silly lockFile fae0c2c0-serve-static serve-static
+17 silly lockFile fae0c2c0-serve-static serve-static
+18 verbose addNamed [ 'connect', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 6c45e0f3-connect connect@
+21 verbose lock connect@ /Users/udourbantschitsch/.npm/6c45e0f3-connect.lock
+22 verbose addNamed [ 'serve-static', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 5f35dc5b-serve-static serve-static@
+25 verbose lock serve-static@ /Users/udourbantschitsch/.npm/5f35dc5b-serve-static.lock
+26 silly addNameRange { name: 'connect', range: '*', hasData: false }
+27 verbose request where is /connect
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id 8ed295fbc076de89
+30 verbose url raw /connect
+31 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+32 verbose url resolved https://registry.npmjs.org/connect
+33 verbose request where is https://registry.npmjs.org/connect
+34 info trying registry request attempt 1 at 16:14:29
+35 http GET https://registry.npmjs.org/connect
+36 silly addNameRange { name: 'serve-static', range: '*', hasData: false }
+37 verbose request where is /serve-static
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /serve-static
+40 verbose url resolving [ 'https://registry.npmjs.org/', './serve-static' ]
+41 verbose url resolved https://registry.npmjs.org/serve-static
+42 verbose request where is https://registry.npmjs.org/serve-static
+43 info trying registry request attempt 1 at 16:14:29
+44 http GET https://registry.npmjs.org/serve-static
+45 http 200 https://registry.npmjs.org/serve-static
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Sun, 15 Mar 2015 15:14:29 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"4S2BUHD4B32KXYFA2289A0398"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '65791',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '38',
+46 silly registry.get     'x-served-by': 'cache-ams4134-AMS',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1426432469.347833,VS0,VE0',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'serve-static', range: '*', hasData: true }
+48 silly addNameRange versions [ 'serve-static',
+48 silly addNameRange   [ '1.0.0',
+48 silly addNameRange     '1.0.1',
+48 silly addNameRange     '1.0.2',
+48 silly addNameRange     '1.0.3',
+48 silly addNameRange     '1.0.4',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.2.0',
+48 silly addNameRange     '1.2.1',
+48 silly addNameRange     '1.2.2',
+48 silly addNameRange     '1.2.3',
+48 silly addNameRange     '1.3.0',
+48 silly addNameRange     '1.3.1',
+48 silly addNameRange     '1.3.2',
+48 silly addNameRange     '1.4.0',
+48 silly addNameRange     '1.4.1',
+48 silly addNameRange     '1.4.2',
+48 silly addNameRange     '1.4.3',
+48 silly addNameRange     '1.4.4',
+48 silly addNameRange     '1.5.0',
+48 silly addNameRange     '1.5.1',
+48 silly addNameRange     '1.5.2',
+48 silly addNameRange     '1.5.3',
+48 silly addNameRange     '1.5.4',
+48 silly addNameRange     '1.6.0',
+48 silly addNameRange     '1.6.1',
+48 silly addNameRange     '1.6.2',
+48 silly addNameRange     '1.6.3',
+48 silly addNameRange     '1.6.4',
+48 silly addNameRange     '1.7.0',
+48 silly addNameRange     '1.7.1',
+48 silly addNameRange     '1.7.2',
+48 silly addNameRange     '1.8.0',
+48 silly addNameRange     '1.8.1',
+48 silly addNameRange     '1.6.5',
+48 silly addNameRange     '1.9.0',
+48 silly addNameRange     '1.9.1',
+48 silly addNameRange     '1.9.2' ] ]
+49 verbose addNamed [ 'serve-static', '1.9.2' ]
+50 verbose addNamed [ '1.9.2', '1.9.2' ]
+51 silly lockFile f2a0d051-serve-static-1-9-2 serve-static@1.9.2
+52 verbose lock serve-static@1.9.2 /Users/udourbantschitsch/.npm/f2a0d051-serve-static-1-9-2.lock
+53 silly lockFile 8987f975-ve-static-serve-static-1-9-2-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+54 verbose lock https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz /Users/udourbantschitsch/.npm/8987f975-ve-static-serve-static-1-9-2-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz',
+55 verbose addRemoteTarball   '069fa32453557b218ec2e39140c82d8905d5672c' ]
+56 info retry fetch attempt 1 at 16:14:29
+57 verbose fetch to= /var/folders/03/j1_tgr9n0kqcq4s6l_jhxqth0000gn/T/npm-2355-BmTS9Bre/registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+58 http GET https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+59 http 200 https://registry.npmjs.org/connect
+60 silly registry.get cb [ 200,
+60 silly registry.get   { date: 'Sun, 15 Mar 2015 15:14:29 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     etag: '"7F02QRWNDZEPA4GQQDSVJSZSO"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     'content-length': '315683',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '47',
+60 silly registry.get     'x-served-by': 'cache-ams4124-AMS',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1426432469.390540,VS0,VE1',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 http 200 https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+62 silly addNameRange number 2 { name: 'connect', range: '*', hasData: true }
+63 silly addNameRange versions [ 'connect',
+63 silly addNameRange   [ '0.0.1',
+63 silly addNameRange     '0.0.2',
+63 silly addNameRange     '0.0.3',
+63 silly addNameRange     '0.0.4',
+63 silly addNameRange     '0.0.5',
+63 silly addNameRange     '0.0.6',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '0.2.1',
+63 silly addNameRange     '0.2.2',
+63 silly addNameRange     '0.2.3',
+63 silly addNameRange     '0.2.4',
+63 silly addNameRange     '0.2.5',
+63 silly addNameRange     '0.2.6',
+63 silly addNameRange     '0.2.7',
+63 silly addNameRange     '0.3.0',
+63 silly addNameRange     '0.4.0',
+63 silly addNameRange     '0.5.0',
+63 silly addNameRange     '0.5.1',
+63 silly addNameRange     '0.5.2',
+63 silly addNameRange     '0.5.3',
+63 silly addNameRange     '0.5.4',
+63 silly addNameRange     '0.5.5',
+63 silly addNameRange     '0.5.6',
+63 silly addNameRange     '0.5.7',
+63 silly addNameRange     '0.5.8',
+63 silly addNameRange     '0.5.9',
+63 silly addNameRange     '0.5.10',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '1.0.1',
+63 silly addNameRange     '1.0.2',
+63 silly addNameRange     '1.0.3',
+63 silly addNameRange     '1.0.4',
+63 silly addNameRange     '1.0.5',
+63 silly addNameRange     '1.0.6',
+63 silly addNameRange     '1.1.0',
+63 silly addNameRange     '1.1.1',
+63 silly addNameRange     '1.1.2',
+63 silly addNameRange     '1.1.3',
+63 silly addNameRange     '1.1.4',
+63 silly addNameRange     '1.1.5',
+63 silly addNameRange     '1.2.0',
+63 silly addNameRange     '1.2.1',
+63 silly addNameRange     '1.2.2',
+63 silly addNameRange     '1.2.3',
+63 silly addNameRange     '1.3.0',
+63 silly addNameRange     '1.4.0',
+63 silly addNameRange     '1.4.1',
+63 silly addNameRange     '1.4.2',
+63 silly addNameRange     '1.4.3',
+63 silly addNameRange     '1.4.4',
+63 silly addNameRange     '1.4.5',
+63 silly addNameRange     '1.4.6',
+63 silly addNameRange     '1.5.0',
+63 silly addNameRange     '1.5.1',
+63 silly addNameRange     '1.5.2',
+63 silly addNameRange     '1.6.0',
+63 silly addNameRange     '1.6.1',
+63 silly addNameRange     '1.6.2',
+63 silly addNameRange     '1.6.3',
+63 silly addNameRange     '1.6.4',
+63 silly addNameRange     '1.7.0',
+63 silly addNameRange     '1.7.1',
+63 silly addNameRange     '1.7.2',
+63 silly addNameRange     '1.7.3',
+63 silly addNameRange     '1.8.0',
+63 silly addNameRange     '1.8.1',
+63 silly addNameRange     '1.8.2',
+63 silly addNameRange     '1.8.3',
+63 silly addNameRange     '1.8.4',
+63 silly addNameRange     '1.8.5',
+63 silly addNameRange     '2.0.0',
+63 silly addNameRange     '2.0.1',
+63 silly addNameRange     '2.0.2',
+63 silly addNameRange     '2.0.3',
+63 silly addNameRange     '1.8.6',
+63 silly addNameRange     '2.1.0',
+63 silly addNameRange     '2.1.1',
+63 silly addNameRange     '2.1.2',
+63 silly addNameRange     '1.8.7',
+63 silly addNameRange     '2.1.3',
+63 silly addNameRange     '2.2.0',
+63 silly addNameRange     '2.2.1',
+63 silly addNameRange     '2.2.2',
+63 silly addNameRange     '2.3.0',
+63 silly addNameRange     '2.3.1',
+63 silly addNameRange     '2.3.2',
+63 silly addNameRange     '2.3.3',
+63 silly addNameRange     '1.9.0',
+63 silly addNameRange     '1.9.1',
+63 silly addNameRange     '2.3.4',
+63 silly addNameRange     '2.3.5',
+63 silly addNameRange     '2.3.6',
+63 silly addNameRange     '2.3.7',
+63 silly addNameRange     '1.9.2',
+63 silly addNameRange     '2.3.8',
+63 silly addNameRange     '2.3.9',
+63 silly addNameRange     '2.4.0',
+63 silly addNameRange     '2.4.1',
+63 silly addNameRange     '2.4.2',
+63 silly addNameRange     '2.4.3',
+63 silly addNameRange     '2.4.4',
+63 silly addNameRange     '2.4.5',
+63 silly addNameRange     '2.4.6',
+63 silly addNameRange     '2.5.0',
+63 silly addNameRange     '2.6.0',
+63 silly addNameRange     '2.6.1',
+63 silly addNameRange     '2.6.2',
+63 silly addNameRange     '2.7.0',
+63 silly addNameRange     '2.7.1',
+63 silly addNameRange     '2.7.2',
+63 silly addNameRange     '2.7.3',
+63 silly addNameRange     '2.7.4',
+63 silly addNameRange     '2.7.5',
+63 silly addNameRange     '2.7.6',
+63 silly addNameRange     '2.7.7',
+63 silly addNameRange     '2.7.8',
+63 silly addNameRange     '2.7.9',
+63 silly addNameRange     '2.7.10',
+63 silly addNameRange     '2.7.11',
+63 silly addNameRange     '2.8.0',
+63 silly addNameRange     '2.8.1',
+63 silly addNameRange     '2.8.2',
+63 silly addNameRange     '2.8.3',
+63 silly addNameRange     '2.8.4',
+63 silly addNameRange     '2.8.5',
+63 silly addNameRange     '2.8.6',
+63 silly addNameRange     '2.8.7',
+63 silly addNameRange     '2.8.8',
+63 silly addNameRange     '2.9.0',
+63 silly addNameRange     '2.9.1',
+63 silly addNameRange     '2.9.2',
+63 silly addNameRange     '2.10.0',
+63 silly addNameRange     '2.10.1',
+63 silly addNameRange     '2.11.0',
+63 silly addNameRange     '2.11.1',
+63 silly addNameRange     '2.11.2',
+63 silly addNameRange     '2.12.0',
+63 silly addNameRange     '2.13.0',
+63 silly addNameRange     '2.13.1',
+63 silly addNameRange     '2.14.0',
+63 silly addNameRange     '2.14.1',
+63 silly addNameRange     '3.0.0-rc.1',
+63 silly addNameRange     '2.14.2',
+63 silly addNameRange     '2.14.3',
+63 silly addNameRange     '2.14.4',
+63 silly addNameRange     '2.14.5',
+63 silly addNameRange     '2.15.0',
+63 silly addNameRange     '3.0.0-rc.2',
+63 silly addNameRange     '2.16.0',
+63 silly addNameRange     '2.16.1',
+63 silly addNameRange     '2.16.2',
+63 silly addNameRange     '2.17.0',
+63 silly addNameRange     '2.17.1',
+63 silly addNameRange     '2.17.2',
+63 silly addNameRange     '2.17.3',
+63 silly addNameRange     '2.18.0',
+63 silly addNameRange     '3.0.0',
+63 silly addNameRange     '2.19.0',
+63 silly addNameRange     '2.19.1',
+63 silly addNameRange     '2.19.2',
+63 silly addNameRange     '2.19.3',
+63 silly addNameRange     '2.19.4',
+63 silly addNameRange     '2.19.5',
+63 silly addNameRange     '2.19.6',
+63 silly addNameRange     '2.20.0',
+63 silly addNameRange     '2.20.1',
+63 silly addNameRange     '2.20.2',
+63 silly addNameRange     '3.0.1',
+63 silly addNameRange     '2.21.0',
+63 silly addNameRange     '2.21.1',
+63 silly addNameRange     '2.22.0',
+63 silly addNameRange     '2.23.0',
+63 silly addNameRange     '3.0.2',
+63 silly addNameRange     '2.24.0',
+63 silly addNameRange     '3.1.0',
+63 silly addNameRange     '2.24.1',
+63 silly addNameRange     '2.24.2',
+63 silly addNameRange     '2.24.3',
+63 silly addNameRange     '2.25.0',
+63 silly addNameRange     '2.25.1',
+63 silly addNameRange     '2.25.2',
+63 silly addNameRange     '2.25.3',
+63 silly addNameRange     '2.25.4',
+63 silly addNameRange     '3.1.1',
+63 silly addNameRange     '2.25.5',
+63 silly addNameRange     '2.25.6',
+63 silly addNameRange     '2.25.7',
+63 silly addNameRange     '2.25.8',
+63 silly addNameRange     '2.25.9',
+63 silly addNameRange     '2.25.10',
+63 silly addNameRange     '2.26.0',
+63 silly addNameRange     '3.2.0',
+63 silly addNameRange     '2.26.1',
+63 silly addNameRange     '2.26.2',
+63 silly addNameRange     '2.26.3',
+63 silly addNameRange     '2.26.4',
+63 silly addNameRange     '2.26.5',
+63 silly addNameRange     '2.26.6',
+63 silly addNameRange     '2.27.0',
+63 silly addNameRange     '3.3.0',
+63 silly addNameRange     '2.27.1',
+63 silly addNameRange     '3.3.1',
+63 silly addNameRange     '2.27.2',
+63 silly addNameRange     '3.3.2',
+63 silly addNameRange     '2.27.3',
+63 silly addNameRange     '3.3.3',
+63 silly addNameRange     '2.27.4',
+63 silly addNameRange     '2.27.5',
+63 silly addNameRange     '2.27.6',
+63 silly addNameRange     '2.28.0',
+63 silly addNameRange     '3.3.4',
+63 silly addNameRange     '2.28.1',
+63 silly addNameRange     '2.28.2',
+63 silly addNameRange     '2.28.3',
+63 silly addNameRange     '2.29.0' ] ]
+64 verbose addNamed [ 'connect', '3.3.4' ]
+65 verbose addNamed [ '3.3.4', '3.3.4' ]
+66 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+67 verbose lock connect@3.3.4 /Users/udourbantschitsch/.npm/d5560a75-connect-3-3-4.lock
+68 silly lockFile 1e564a59-js-org-connect-connect-3-3-4-tgz https://registry.npmjs.org/connect/-/connect-3.3.4.tgz
+69 verbose lock https://registry.npmjs.org/connect/-/connect-3.3.4.tgz /Users/udourbantschitsch/.npm/1e564a59-js-org-connect-connect-3-3-4-tgz.lock
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-3.3.4.tgz',
+70 verbose addRemoteTarball   'c4d6385e06c75885d8b4f2d276a374e2d8fbe23e' ]
+71 info retry fetch attempt 1 at 16:14:29
+72 verbose fetch to= /var/folders/03/j1_tgr9n0kqcq4s6l_jhxqth0000gn/T/npm-2355-BmTS9Bre/registry.npmjs.org/connect/-/connect-3.3.4.tgz
+73 http GET https://registry.npmjs.org/connect/-/connect-3.3.4.tgz
+74 silly lockFile 8987f975-ve-static-serve-static-1-9-2-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+75 silly lockFile 8987f975-ve-static-serve-static-1-9-2-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz
+76 silly lockFile f2a0d051-serve-static-1-9-2 serve-static@1.9.2
+77 silly lockFile f2a0d051-serve-static-1-9-2 serve-static@1.9.2
+78 silly lockFile 5f35dc5b-serve-static serve-static@
+79 silly lockFile 5f35dc5b-serve-static serve-static@
+80 http 200 https://registry.npmjs.org/connect/-/connect-3.3.4.tgz
+81 silly lockFile 1e564a59-js-org-connect-connect-3-3-4-tgz https://registry.npmjs.org/connect/-/connect-3.3.4.tgz
+82 silly lockFile 1e564a59-js-org-connect-connect-3-3-4-tgz https://registry.npmjs.org/connect/-/connect-3.3.4.tgz
+83 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+84 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+85 silly lockFile 6c45e0f3-connect connect@
+86 silly lockFile 6c45e0f3-connect connect@
+87 silly resolved [ { name: 'serve-static',
+87 silly resolved     description: 'Serve static files',
+87 silly resolved     version: '1.9.2',
+87 silly resolved     author:
+87 silly resolved      { name: 'Douglas Christopher Wilson',
+87 silly resolved        email: 'doug@somethingdoug.com' },
+87 silly resolved     license: 'MIT',
+87 silly resolved     repository:
+87 silly resolved      { type: 'git',
+87 silly resolved        url: 'https://github.com/expressjs/serve-static' },
+87 silly resolved     dependencies:
+87 silly resolved      { 'escape-html': '1.0.1',
+87 silly resolved        parseurl: '~1.3.0',
+87 silly resolved        send: '0.12.2',
+87 silly resolved        'utils-merge': '1.0.0' },
+87 silly resolved     devDependencies: { istanbul: '0.3.7', mocha: '~2.2.1', supertest: '~0.15.0' },
+87 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+87 silly resolved     engines: { node: '>= 0.8.0' },
+87 silly resolved     scripts:
+87 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+87 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+87 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+87 silly resolved     gitHead: '6446e1c45de75f143b36ce60dd75c4daf52d2376',
+87 silly resolved     bugs: { url: 'https://github.com/expressjs/serve-static/issues' },
+87 silly resolved     homepage: 'https://github.com/expressjs/serve-static',
+87 silly resolved     _id: 'serve-static@1.9.2',
+87 silly resolved     _shasum: '069fa32453557b218ec2e39140c82d8905d5672c',
+87 silly resolved     _from: 'serve-static@',
+87 silly resolved     _npmVersion: '1.4.28',
+87 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+87 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: '069fa32453557b218ec2e39140c82d8905d5672c',
+87 silly resolved        tarball: 'http://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/serve-static/-/serve-static-1.9.2.tgz' },
+87 silly resolved   { name: 'connect',
+87 silly resolved     description: 'High performance middleware framework',
+87 silly resolved     version: '3.3.4',
+87 silly resolved     author:
+87 silly resolved      { name: 'TJ Holowaychuk',
+87 silly resolved        email: 'tj@vision-media.ca',
+87 silly resolved        url: 'http://tjholowaychuk.com' },
+87 silly resolved     contributors: [ [Object], [Object], [Object] ],
+87 silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+87 silly resolved     repository: { type: 'git', url: 'https://github.com/senchalabs/connect' },
+87 silly resolved     dependencies:
+87 silly resolved      { debug: '~2.1.1',
+87 silly resolved        finalhandler: '0.3.3',
+87 silly resolved        parseurl: '~1.3.0',
+87 silly resolved        'utils-merge': '1.0.0' },
+87 silly resolved     devDependencies:
+87 silly resolved      { istanbul: '0.3.5',
+87 silly resolved        mocha: '~2.1.0',
+87 silly resolved        should: '~4.4.2',
+87 silly resolved        supertest: '~0.15.0' },
+87 silly resolved     license: 'MIT',
+87 silly resolved     engines: { node: '>= 0.10.0' },
+87 silly resolved     scripts:
+87 silly resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/',
+87 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+87 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+87 silly resolved     gitHead: '84a2a042914bfa32eb380a5198cdbbf97f47cf3c',
+87 silly resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+87 silly resolved     homepage: 'https://github.com/senchalabs/connect',
+87 silly resolved     _id: 'connect@3.3.4',
+87 silly resolved     _shasum: 'c4d6385e06c75885d8b4f2d276a374e2d8fbe23e',
+87 silly resolved     _from: 'connect@',
+87 silly resolved     _npmVersion: '1.4.28',
+87 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+87 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: 'c4d6385e06c75885d8b4f2d276a374e2d8fbe23e',
+87 silly resolved        tarball: 'http://registry.npmjs.org/connect/-/connect-3.3.4.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/connect/-/connect-3.3.4.tgz' } ]
+88 info install serve-static@1.9.2 into /usr/local/lib
+89 info install connect@3.3.4 into /usr/local/lib
+90 info installOne serve-static@1.9.2
+91 info installOne connect@3.3.4
+92 verbose lib/node_modules/serve-static unbuild
+93 verbose lib/node_modules/connect unbuild
+94 verbose tar unpack /Users/udourbantschitsch/.npm/serve-static/1.9.2/package.tgz
+95 silly lockFile 8a4b13cb-al-lib-node-modules-serve-static tar:///usr/local/lib/node_modules/serve-static
+96 verbose lock tar:///usr/local/lib/node_modules/serve-static /Users/udourbantschitsch/.npm/8a4b13cb-al-lib-node-modules-serve-static.lock
+97 silly lockFile 4715aad0-m-serve-static-1-9-2-package-tgz tar:///Users/udourbantschitsch/.npm/serve-static/1.9.2/package.tgz
+98 verbose lock tar:///Users/udourbantschitsch/.npm/serve-static/1.9.2/package.tgz /Users/udourbantschitsch/.npm/4715aad0-m-serve-static-1-9-2-package-tgz.lock
+99 verbose tar unpack /Users/udourbantschitsch/.npm/connect/3.3.4/package.tgz
+100 silly lockFile d169a5cb-r-local-lib-node-modules-connect tar:///usr/local/lib/node_modules/connect
+101 verbose lock tar:///usr/local/lib/node_modules/connect /Users/udourbantschitsch/.npm/d169a5cb-r-local-lib-node-modules-connect.lock
+102 silly lockFile 85a6b9f3-ch-npm-connect-3-3-4-package-tgz tar:///Users/udourbantschitsch/.npm/connect/3.3.4/package.tgz
+103 verbose lock tar:///Users/udourbantschitsch/.npm/connect/3.3.4/package.tgz /Users/udourbantschitsch/.npm/85a6b9f3-ch-npm-connect-3-3-4-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 error Error: EACCES, mkdir '/usr/local/lib/node_modules/serve-static'
+106 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/serve-static']
+106 error   errno: 3,
+106 error   code: 'EACCES',
+106 error   path: '/usr/local/lib/node_modules/serve-static',
+106 error   fstream_type: 'Directory',
+106 error   fstream_path: '/usr/local/lib/node_modules/serve-static',
+106 error   fstream_class: 'DirWriter',
+106 error   fstream_stack:
+106 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+106 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+106 error      'Object.oncomplete (fs.js:107:15)' ] }
+107 error Please try running this command again as root/Administrator.
+108 error System Darwin 14.1.0
+109 error command "node" "/usr/local/bin/npm" "install" "-g" "connect" "serve-static"
+110 error cwd /Users/udourbantschitsch/Documents/angularjs
+111 error node -v v0.10.33
+112 error npm -v 1.4.28
+113 error path /usr/local/lib/node_modules/serve-static
+114 error fstream_path /usr/local/lib/node_modules/serve-static
+115 error fstream_type Directory
+116 error fstream_class DirWriter
+117 error code EACCES
+118 error errno 3
+119 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/serve-static'
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+120 error fstream_stack Object.oncomplete (fs.js:107:15)
+121 verbose exit [ 3, true ]
